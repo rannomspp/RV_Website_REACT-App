@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/RV_Website_REACT-App/static/css/main.962df4d3.css",
+    "main.js": "/RV_Website_REACT-App/static/js/main.613cf235.js",
+    "static/js/787.82352c60.chunk.js": "/RV_Website_REACT-App/static/js/787.82352c60.chunk.js",
+    "index.html": "/RV_Website_REACT-App/index.html",
+    "main.962df4d3.css.map": "/RV_Website_REACT-App/static/css/main.962df4d3.css.map",
+    "main.613cf235.js.map": "/RV_Website_REACT-App/static/js/main.613cf235.js.map",
+    "787.82352c60.chunk.js.map": "/RV_Website_REACT-App/static/js/787.82352c60.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.962df4d3.css",
+    "static/js/main.613cf235.js"
+  ]
+}
