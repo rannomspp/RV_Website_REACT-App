@@ -1,21 +1,27 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 
-const Navbar = () => {
-  return <div>
-  <div id="nav-bar-logo">
-    <h1><a href="index.html">RANNOVISUALS</a></h1>
-    <div id="nav-bar">
-      <nav>
-        <ul>
-          <li><a href="work.html">Work</a></li>
-          <li><a href="aboutme.html">About Me</a></li>
-          <li><a href="#CONTACT">Contact</a></li>
-        </ul>
-      </nav>
-    </div>
-  </div>{/* End of Header */}
+const Navbar = ({isDropDownMenuOpen, openDropDownMenu}) => {
+  return <>
+  <nav className="navbar">
+  <div className="nav-bar-logo">
+      <h1><NavLink className="navlink" to="/RV_Website_REACT-App">RANNOVISUALS</NavLink></h1>
+  </div>
+  <a href="#" className="toggle-button" onClick={openDropDownMenu}>
+      <span className="bar"></span>
+      <span className="bar"></span>
+      <span className="bar"></span>
+  </a>
+  <div className={isDropDownMenuOpen ? "navbar-links" : "navbar-links active"}>
+      <ul>
+          <li><NavLink className="navlink" to="/work">Work</NavLink></li>
+          <li><NavLink className="navlink" to="/aboutme">About Me</NavLink></li>
+          <li><NavLink className="navlink" to="/contact">Contact</NavLink></li>
+      </ul>
+  </div>
+  </nav>
   <hr />
-</div>;
+  </>;
 };
 
 export default Navbar;
