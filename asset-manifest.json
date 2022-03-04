@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/RV_Website_REACT-App/static/css/main.767fcc82.css",
-    "main.js": "/RV_Website_REACT-App/static/js/main.f004ae1f.js",
+    "main.js": "/RV_Website_REACT-App/static/js/main.16c44a4f.js",
     "static/js/787.82352c60.chunk.js": "/RV_Website_REACT-App/static/js/787.82352c60.chunk.js",
     "static/media/chapter 2020_rannovisuals.webp": "/RV_Website_REACT-App/static/media/chapter 2020_rannovisuals.a6e6b8c83d0fac39a459.webp",
     "static/media/ryytlit2navAtNight_rannovisuals.webp": "/RV_Website_REACT-App/static/media/ryytlit2navAtNight_rannovisuals.92f2814c9c0dff7bd171.webp",
     "static/media/ship_rannovisuals.webp": "/RV_Website_REACT-App/static/media/ship_rannovisuals.e438acae3bfccbb4234d.webp",
     "index.html": "/RV_Website_REACT-App/index.html",
     "main.767fcc82.css.map": "/RV_Website_REACT-App/static/css/main.767fcc82.css.map",
-    "main.f004ae1f.js.map": "/RV_Website_REACT-App/static/js/main.f004ae1f.js.map",
+    "main.16c44a4f.js.map": "/RV_Website_REACT-App/static/js/main.16c44a4f.js.map",
     "787.82352c60.chunk.js.map": "/RV_Website_REACT-App/static/js/787.82352c60.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.767fcc82.css",
-    "static/js/main.f004ae1f.js"
+    "static/js/main.16c44a4f.js"
   ]
 }
