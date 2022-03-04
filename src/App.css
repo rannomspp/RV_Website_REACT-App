@@ -87,6 +87,9 @@ body {
 	#MAIN h1.MyWorkText {
 		display: none;
 	}
+	.pictures-wrapper {
+		flex-direction: column;
+	}
 }
 
 @media (max-width: 700px) {
@@ -140,16 +143,33 @@ p {
 	margin: 10px auto;
 }
 
+
 #MAIN {
 	display: flex;
-	flex-wrap:  wrap;
+	flex-wrap: wrap;
 	justify-content: center;
 	flex-direction: column;
 	align-items: center;
+	max-width: 100%;
 	min-width: auto;
 	height: 100vh;
 	background-color: #DCDCDC;
 }
+
+#MyWorkPage {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	max-width: 100%;
+	min-width: auto;
+	max-height: auto;
+	height: 100%;
+	padding-top: 10%;
+	background-color: #DCDCDC;
+}
+
 #CONTACT {
 	display: flex;
 	align-items: center;
@@ -214,9 +234,24 @@ button:hover {
 	justify-content: center;
 	min-width: auto;
 	max-width: 100%;
-	overflow: auto;
 	padding-top: 30px;
 	padding-bottom: 30px;
+}
+
+.pictures-wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: center;
+	min-width: auto;
+	max-width: 100%;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+img:hover {
+	transition: transform .5s ease;
+	transform: scale(1.05);
 }
 
 #FOOTER {

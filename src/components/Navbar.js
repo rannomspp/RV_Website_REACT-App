@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 
-const Navbar = ({isDropDownMenuOpen, openDropDownMenu}) => {
+const Navbar = ({isDropDownMenuOpen, openDropDownMenu, playTextAnimation}) => {
   return <>
   <nav className="navbar">
   <div className="nav-bar-logo">
@@ -15,7 +15,7 @@ const Navbar = ({isDropDownMenuOpen, openDropDownMenu}) => {
   <div className={isDropDownMenuOpen ? "navbar-links" : "navbar-links active"}>
       <ul>
           <li><NavLink className="navlink" to="/work">Work</NavLink></li>
-          <li><NavLink className="navlink" to="/aboutme">About Me</NavLink></li>
+          <li><NavLink className="navlink" to="/aboutme" onClick={playTextAnimation}>About Me</NavLink></li>
           <li><NavLink className="navlink" to="/contact">Contact</NavLink></li>
       </ul>
   </div>

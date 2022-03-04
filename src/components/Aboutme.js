@@ -1,10 +1,10 @@
 import React from 'react';
 
-const Aboutme = () => {
+const Aboutme = ( {aboutMeTxt} ) => {
   return <>
   <div>
     <div id="MAIN">
-        <h2 id="aboutMeText">About Me</h2>
+        <h2 id="aboutMeText">{aboutMeTxt}</h2>
         <br />
         <p>Videographer based in Estonia.</p>
     </div>
